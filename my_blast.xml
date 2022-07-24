@@ -1,0 +1,1499 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>Query_428121</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>2166</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_428121</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>2166</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|206737695|gb|CP001145.1|</Hit_id>
+  <Hit_def>Coprothermobacter proteolyticus DSM 5265, complete genome</Hit_def>
+  <Hit_accession>CP001145</Hit_accession>
+  <Hit_len>1424912</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1460.21</Hsp_bit-score>
+      <Hsp_score>1618</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>243</Hsp_query-from>
+      <Hsp_query-to>2166</Hsp_query-to>
+      <Hsp_hit-from>123590</Hsp_hit-from>
+      <Hsp_hit-to>125514</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>1484</Hsp_identity>
+      <Hsp_positive>1484</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>1928</Hsp_align-len>
+      <Hsp_qseq>TCTCTGTACCACCAAGCGATGTTCCATGTGTGTGCCGCAACATCCAAGCCCACATCAAAGCCTTCAATGTTCAGTTTCACAGCGTCATGCTGATCCTGCCAAACTATAGGAATTTCTGGCATGTAAACAGCAAAGTA-ATTCTTTGCAAAGTCTCTGTAAGCTTTTGTTCTTTCAG--ATGAATTGAAGCTGTTCCACTTTGTTATCAAAGCATCGGCTTCTGCATTCCTGAATCCGCTGTAGTTCTGCCCAACATATCCATTGGTTGCAGATGGGATATACCTTGATTGATAAAGGGTATTTCCACCGGGTTCAAGGATACTCCTCTGACCCCAAGCAAACAAACCGATATCGAATGTGCGATGTGGCAGTACGGTGTTGAAGAAATCCGAAGAGTTAAGAGGTTGCATGCTTAGGTTAATACCAACCTGCTTGTACTGCTGCTGGATAACCTGCAGAGCGCTGATACGGTCAGACCTTGTAGTAGTCTGAGCAAGCAAGCTCAATTTCTTACCGTTCTTTGCATAAAC-CCGTCGCTACCCTTTGTGTAACCAGCCTGCTGAAGCAGTGTTGTAGCTTTAGATGGATTGTATACAAACACATTCTTAGAGGACGGTTCATCAAAATCGTTATTCGGCAGTACAAAGTTGTAACATACAGGTCTCATACCGTAGTAAACACGGTTAGAGATATCTGTTCTGTTCATGGCATAAGACAGCGCTTGGCGAACTCTGTTATCGCTAAGGAATGGATGGTTGTAAGCTACACCGATCTTAGGATCTTTCGGTAAATTGTTCGGGTCATCAAAGTTTACTGTAAAGTGTTCCCAGTAAACAGAAGGAATGCTGTTCAGTTTGTACTGGTTAAGGAACGTCTTGTTTGCAGAAAGTGTCTTTGCATTCTGTGTGCTAATAACACCCATGATAGCAGCATCTGGCTGACCTCTCAATAGTTCTGCCAAACCAGATTCAACACTTCTGAATGCAACAACGACTTTATCGAACAAACCGCCACCAAGGAAGTAATTGGTGTCTGGTACAAATTCCATGTAACCTTTCTGCACCCAGTTTGTGATCTTGTAAGGACCGGTGTGCATAGGTTTCGTATTGTAGGAGCAGTTAACCAAAGCTTCAACATTTTTATCCATGACTTCTTTGATATTCTTTGGTAAGGTATAAGACTGATCGCCAAGGTAATTTTGATCGGCATCATGTTTAAGAACGAAATCTACAGTATTTGGGAAAGACAGTGTGGTTTTTAGAACGTTCTGTTCAAACCAGTGTTTCGGATATAACGGTAAACCATACTTCGCGTAAATGTTGTAAGGATTGCTCTTGTCTACTGCTGTGAAGTAAACCCTAATGGTGTAGTTGTCAAGTTTCTCAATCCTTGCTACACTGTCATAGGGGTCAATACCAGGAACGGGCATTCCATTGGCAAGATAAAGTAATGTTCCGAAAATGAAGTCATCGGCTGTAATAGGTTGGCCATCACTCCACTTAAGGCCTTGCCTTAGGCCAAAGTCATACCTCATGTAAATAGGTACTTTGGTGCCGTCTTGTAAGGTAATGGTTTGCGGTGTGCTGTAAATGACTTGTTTGCCATTCTCAGTGGTAGGTACCCAACGACCAAGTTGTGGCCACCAGTTGCCTCTCCAGTCAGAACCCTGTTCAGCGTCTTGAATAAGACCTAAAACCTGAGTCATAGCTGCCATGGAGTCCAGCGGGTTGAACAATGTGGCAGGTTCCTGCTCTTCAATGATGTAGAGCTGGCCGCCTTTTTTAACAGGCCATTTCATCTTGTAAATGGTGTACGCCGCTTCACCTCTGGTCGCAGCTTTGTCTGCTGCAATCAAACGTCCCGGTTGCCTCCAGCTTAACACTTGATACTTCGGCATAATGGCTGCTGTTAGCCAGCCCTTCGCCCA</Hsp_qseq>
+      <Hsp_hseq>TCTCTGTACCACCAAGCGATGTTCCAAGTGTGAGCTGCTACGTCCAATCCAAGATCGTATCCTTCAATGTTCAGCTTAACGGCGTCATGCTGATCATGCCATACGATTGGCATTTCTGGCATGTAAACACCAAAGTAGAGTCTTCCGAAATCCT-TGTAAGCTTTTGTTCTTTCAGTCATG--TCAAAACTGGTCCATTTATTCATGAGGGCGTCTGCTTCAGCGTTACGGAAACCACTGTAGTTCTGTCCCTGATAACCGTTGGACTTAGATGGGATGTATCTGGACATGTACAGGGTGGTTCCACCTGGTTCAAGAATACTGCTCTGGCCCCAAGCAAACAAGCCGATTTCGAATGTTCTGTGAGGTAGTACTGTGTTAAAGAAGTCAGAGGAGTTCAAAGGCTGCATACTTAAGTTGATACCAACCTGCTTGTACTGTTGCTGGATAATCTGCAACGTGTTGATACGGTCAGTTCTGTTGGTGGTCTGAGCAAGCAAGCTGAGTTTCTTTCCACCTTTGGCGTATACTCCGTCAGTACCCTTAGTTAAACCTGCCTGTTTCAGCAACGTATCAGCCTTTCCTGGGTCATATATGAACACATTCTTGAGGGATGGTTCATCAAAGGCACTGCCGGGTAGCACGTGGTAGTAAGCCAGTGGTCTCATGCCGTAGTAAACACGGTTGGAGATGTCTTGGCGGTTGATAGCATAGGACAATGCTTGACGTACTCTGTTGTCGCTTAGGAATGGGTGGGTGTATGCTACGCCTGGCTTTGGAGCATCAGGTAGATTGTTAGGATCGTCAAAGTTAACGGTGAAGTGCTCCCAGAACACCGATGGTATGCTGTTGAGCTTGTACTGCTTTAGGAAGTTACTGTTTGCAGAAAGCGTCTTGGCGTTTTGTGTGTTGATAACACCCATTACAGCTACATCGGGCTGACCTCTGAGCAGTTCTGCTAAACCAGATTCAGCGCTTCTGAAGGCGAATACGACTTTATCGAAGAGTCCAGGGCCTAAGAAGTAGTTTGGATCAGGTACAAATTCCATGTAGCCCTTCTGCACCCAGTTGGTAATCTTGTAAGGCCCAGTGTGCATGGGTTTCGTGTTGTAGGAGCTGTTTACAATGGCTTCAACGTTCTTGTCCATGACCTCTTTTAAGTTCCTAGGTAGGGTGTAGGAAACATCGGATAGATAAGTCATTTCTTCGTCGTGCTTAAGCACAAAATCGATGGTCTTTGGATAGGTTACCGTGGTCTTCAAAACGTTTTGCTCGAACCAGTGTTTCGGGTACAGTGGTAAGCCGTACTTGGCATAAACGTTGTAGGGGTTTTCCTTATCCACAGCAGTAAAGTACACTCTGATGGTGTAATCATCCAGCTTCTCAATTCTGGCTACACTGTCATAGGGGTCAAGTCCTGGTACGGGCATATCTTTAGCCAAATACAGCAATGTACCAAAGATAAAGTCATCAGCGGTAATAGGTTGTCCATCGCTCCACTTAAGACCCGGTCTTAGGCCAAAATCGTACCTCATGTAGATGTCAACCTGTGTTCCGTCTTGCAGGGTTATTTTCTGTGGTTTCTCATAGATGACCTGCTTGCCGTTCTCAGTGGTGGGTACCCAGCGTCCCATCTGTGGCCACCAGTTGCCTCTCCAGTCAGAACCTTGCTCACCGTCCATAATTAGCGCTAGGACTTGAGTCATGGCTGCCATGGAGTCTAGGGCGCTGAACAACGTGGCTGGCTCCTGTTCCTCAACGATGTACAGCTGTCCACCTTTCTTTACAGGCCACTTCATCTTGTAAATGGTGTAAGCTGCTTCTCCTCTGGTGGCTGCCTTGTCTGCAGCAATTAACCTGCCAGGCTGCCTCCAAGAGAGTACTTGATACCTGGGCATAATGGCTGCTGTTAGCCATCCCTTCGCCCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||| ||||| || || || ||||| || | |||  | |||||||||||||| || || |||||||||||||| ||||| || || || |||||||||||||||||| ||||||| | ||||   |||  || |||||||||||||||||||||  |||  |  || ||| |||| ||  | || |  || || ||||| || || | ||| || ||||||||||| ||   ||| || ||||    ||||||||| || || ||    || |||||  ||||||| |||||||| ||||| ||||| |||||||||||||| ||||| |||||||| |  || || ||||| ||||| ||||| || || ||||| | ||| ||||| |||| ||| |||||||||||||||||||| |||||||||| |||||  | | ||||||||||||  ||  | || ||||||||||||||||| | |||||| ||    || || || || |||||  ||||||| ||  |||| ||||| |  ||||  ||   ||| ||   ||| |  ||||  |||||||||||   ||| |||||||||||  |  |    || || ||   || ||||   |  |||||||| ||||||||||||||||| ||||| |||   | ||| || ||||| ||||  ||||| || |||||||| ||||| |||||||| ||| |||| ||||| ||   ||| ||| | |  |||| |||||| || || |||||||| || || ||||| |||||| | || || || |||||||| || |||||||| || |||||  |  ||||||||||||| ||||| || || |||||| | ||||||||||| | |||  |||| ||||||||||| |  |||||||| |||||||||||| | |||||||| || |  |||||||||||||| |  ||    || | |||||| || |  || ||||||||||||||||| || |||||||||||||| || ||||||||||| || |||||||| |||||||| |||||||||| ||| || |  |||||||| || || |||||||| ||||| |  ||| | |||| ||| || ||   ||||   || ||| |    ||  | || || ||||| || ||||| |  || |||||  | |  |  ||||| || | |||||| || || |||||||||||||| || |  ||||| || ||||| || |||| |||||| || ||   ||| || || || || ||||| || || |||||||| |  || || |||||||| || ||||||||||||||||||||||  || || ||||||||  | || || | ||| || ||||| || || || |||||||| || ||||||||||| ||||| ||||||||||| ||  | ||||||||||| || ||||||||||| ||    || |  || |||||||| | ||| ||  | || ||| |    || ||||| || ||||| ||||||||||| |||||||| || || |  |||||||||||||||||||||||||||||||| || ||| ||||   ||| ||  |||  || |||||||| |||||||||||||| || | | ||||||| ||||| || ||||| || |||| |||||| ||||| || ||||| || |||||||| |||||||||||||||||||| || ||||| |||||||| || || |||||||| ||||| || |  || || ||||||||    |  ||||||||| | ||||||||||||||||||||||| |||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>1316.84</Hsp_bit-score>
+      <Hsp_score>1459</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>243</Hsp_query-from>
+      <Hsp_query-to>2166</Hsp_query-to>
+      <Hsp_hit-from>126139</Hsp_hit-from>
+      <Hsp_hit-to>128063</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>1462</Hsp_identity>
+      <Hsp_positive>1462</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>1937</Hsp_align-len>
+      <Hsp_qseq>TCTCTGTACCACCAAGCGATGTTCCATGTGTGTGCCGCAACATCCAAGCCCACATCAAAGCCTTCAATGTTCAGTTTCACAGCGTCATGCTGATCCTGCCAAACTATAGGAATTTCTGGCATGTAAACAGCAAAGTAATTCTTTGCAAAGTCTCTGTAAGCTTTTGTTCTTTCAGATGAATTGAAGCTGTTCCACTTTGTTATCAAAGCATCGGCTTCTGCATTCCTGAATCCGCTGTAGTTCTGCCCAACATATCCATTGGTTGCAGATGGGATATACCTTGATTGATAAAGGGTATTTCCACCGGGTTCAAGGATACTCCTCTGACCCCAAGCAAACAAACCGATATCGAA-TGTGCGATGTGGCAGTACGGTGTTGAAGAAAT--CCGAAGAGTTAAGAGGTTGCATGCTTAGGTTAATACCAACCTGCTTGTACTGCTGCTGGATAACCTGCAGAGCGCTGATACGGTCAGACCTTGTAGTAGTC----TGAGCAAGCAAGCTCAATTTCTTACCGTT---CTTTGCATAAAC-CCGTCGCTACCCTTTGTGTAACCAGCCTGCTGAAGCAGTGTTGTAGCTTTAGATGGATTGTATACAAACACATTCTTAGAGGACGGTTCATCAAAAT-CGTTATTCGGCAGTACAAAGTTGTAACATACAGGTCTCATACCGTAGTAAACACGGTTAGAGATATCTGTTCTGTTCATGGCATAAGACAGCGCTTGGCGAACTCTGTTATCGCTAAGGAATGGATGGTTGTAAGCTACACCGATCTTAGGATCTTTCGGTAAATTGTTCGGGTCATCAAAGTTTACTGTAAAGTGTTCCCAGTAAACAGAAGGAATGCTGTTCAGTTTGTACTGGTTAAGGAACGTCTTGTTTGCAGAAAGTGTCTTTGCATTCTGTGTGCTAATAACACCCATGATAGCAGCATCTGGCTGACCTCTCAATAGTTCTGCCAAACCAGATTCAACACTTCTGAATGCAACAACGACTTTATCGAACAAACCGCCACCAAGGAAGTAATTGGTGTCTGGTACAAATTCCATGTAACCTTTCTGCACCCAGTTTGTGATCTTGTAAGGACCGGTGTGCATAGGTTTCGTATTGTAGGAGCAGTTAACCAAAGCTTCAACATTTTTATCCATGACTTCTTTGATATTCTTTGGTAAGGTATAAGACTGATCGCCAAGGTAATTTTGATCGGCATCATGTTTAAGAACGAAATCTACAGTATTTGGGAAAGACAGTGTGGTTTTTAGAACGTTCTGTTCAAACCAGTGTTTCGGATATAACGGTAAACCATACTTCGCGTAAATGTTGTAAGGATTGCTCTTGTCTACTGCTGTGAAGTAAACCCTAATGGTGTAGTTGTCAAGTTTCTCAATCCTTGCTACACTGTCATAGGGGTCAATACCAGGAACGGGCATTCCATTGGCAAGATAAAGTAATGTTCCGAAAATGAAGTCATCGGCTGTAATAGGTTGGCCATCACTCCACTTAAGGCCTTGCCTTAGGCCAAAGTCATACCTCATGTAAATAGGTACTTTGGTGCCGTCTTGTAAGGTAATGGTTTGCGGTGTGCTGTAAATGACTTGTTTGCCATTCTCAGTGGTAGGTACCCAACGACCAAGTTGTGGCCACCAGTTGCCTCTCCAGTCAGAACCCTGTTCAGCGTCTTGAATAAGACCTAAAACCTGAGTCATAGCTGCCATGGAGTCCAGCGGGTTGAACAATGTGGCAGGTTCCT-GCTCTTCAATGATGTAGAGCTGGCCGCCTTTTTTAACAGGCCATTTCATCTTGTAAATGGTGTACGCCGCTTCACCTCTGGTCGCAGCTTTGTCTGCTGCAATCAAACGTCCCGGTTGCCTCCAGCTTAACACTTGATACTTCGGCATAATGGCTGCTGTTAGCCAGCCCTTCGCCCA</Hsp_qseq>
+      <Hsp_hseq>TCTCTGTACCACCAAGCGATGTTCCAAGTGTGAGCTGCTACGTCCAATCCAAGATCGTATCCTTCAATGTTCTGCTTAACTGCGTCGTGCTGATCTGTCCACAGTATGGGTATTTCTGGCATATAGACAGACCAATAATTCTTGGTGAAATCCTTGTAAGCTTTTGTTCTCTCAGAAGTATTGAAACTATTCCATTTCGCGATCAAAGCGTCTGCCTGGGCGTTACGGAAACCGCTGTAGTTCTGACCCTGATAGCCATTTGCTTCAGAAGGAATGTAAGAGGATTGGTAAAGGGTATTTCCGCCTGGTTCAAGAATGCTGCTCTGGCCCCAAGAGAAGAGTGCGATCTCAAACTGTCTG-TGAGGTAGGACTGTGTTGAAGAGTGGACCG--GCGTCTAATGCTTGCATGTTTAGGTTAATACCCACTTGCTTGTACTGCTGCTGCACAAGCTGAACAACACGGATGGGGTCTG----TGGAGTTACCCATGTTTGCAAGTAAACTGAGTTTGTT---GTTACCCTTAGCGTAAATGCCGTCACTGCCTTTCTTAAAGCCTGCTTGTTGTAAAAGGGTGTTTGCTTTAGCTGGGTCATACGTAAAGACGTTCTTCACAGAAGGTTCGTCATAAGGCGTTCCTGGG-AGAACGAAGTTGTAGCAAAGAGGCCTCATTCCATAATAGATACGGTTAGAGATATCTTGACGGTTCATAGCATAGGACAGTGCTTGACGTACTCTGTTGTCGCTTAGGAATGGGTGAGTGTATGCTACGCCTGGTTTGGGGTCCTTTGGTAGGTTCTTTGGATCGTCGAAGTTGACGGTGAAGTGCTGCCAGAATACTGAGGTTACGCTGTTGAGTTTGTATTGCTTTAGGAAGCTGGAGTTTGCGGCCAGTGTCTTTGCGTTTTGTGTATTGATAACACCCATGATGGCTAAGTCAGGCTGTCCTCTGAGTAGTTCTGCTAAGCCGGATTCCACACTTCTGAATGCAATGATCACTTTGTCGAAGAGTCCAGGGCCTAAGAAGTAGTTTGGATCAGGTGCAAATTCCATGTAGCCCTTCTGCACCCAGTTGGTAATCTTGTAAGGTCCAGTGTGCATGGGCTTTGTGTTGTAGGAGCTGTTTACAATGGCTTCAACGTTTTTGTCTATGACCTCTTTTAAGTTCCTAGGTAGGGTGTAGGAAACATCGGACTGATACTGCATCTTAGCGTCGTGTTTAAGTACAAAATCAACAGTCTTTGGGTAGGTTACCGTGGTCTTCAAAACATTCTTTTCGAACCAGTGTTTCGGGTACAGTGGTAAGCCGTACTTGGCATAAACGTTGTAGGGGTTGTTTTTGTCTACAGCTGTGAAATAAACTCTGATGGTGTAATTATCCAGCTTCTCAATTCTGGCTACACTGTCATAGGGGTCAAGTCCTGGTACGGGCATATCTTTAGCCAAATACAGCAATGTACCAAAGATAAAGTCATCAGCGGTAATAGGTTGTCCATCGCTCCACTTAAGACCCGGTCTTAAACTAAAATCATACCGCATGTAAATGGGTACTTTGGTTCCGTCCTGTAGCGTAATGGTCTGTGGTTTTTCGTAAATGACCTGTTTGCCGTTCTCAGTGGTAGGTACCCAGCGTCCTAACTGTGGCCACCAGTTGCCTCTCCAGTCAGAACCTTGCTCAGCGTCCTGAACCAATGCCAGTATCTGGTTCATGGCTGCCATGGAGTCTAAGGCGTTGAACAACGTGGCAGGTTCTTCGCTC-TGGATAATGTACAGCTGTCCGCCTTTCTTTACAGGCCACTTCATCTTGTAAATGGTGTAAGCTGCTTCTCCTCTGGTGGCTGCCTTGTCTGCAGCAATTAACCTGCCAGGCTGCCTCCAAGAGAGTACTTGATACCTGGGCATAATGGCTGCTGTTAGCCATCCCTTCGCCCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||| ||||| || || || ||||| || | |||  | |||||||||||| | || || ||||| ||||||||   ||| | ||| || ||||||||||| || ||||   | |||||||| |  || ||  |||||||||||||||| ||||| | |||||| || ||||| || |  |||||||| || || |  || || | ||| |||||||||||||| ||   ||| ||||| | | |||| || || ||    ||||| |||||||||||||| || |||||||| || || ||||| |||||||  || |   |||| || || |||  | || || || || ||||||||||     |||  | ||  |  | ||||||| ||||||||||||| || ||||||||||||||||| | || ||| | | | | |||  |||| |    || |||   |    |  ||||| || || | ||| ||   |||   ||| || ||||  ||||| || || ||  |  | || || || || |  || ||  | ||||||| ||| |  ||   ||| || |||||    || ||||| ||| ||  ||||  | || || || |||||||| || | ||| ||||| || || || | ||||||||||||||||   | |||||| ||||| ||||| ||||| || |||||||| ||||| |||||||| ||  |||| ||||| ||    || || || || ||||  || || || || || ||||| || || ||||| | |||| | || || |  | |||||| |||||||| || || |||||  |   |||||| |  ||||||||||| || |||||  | |||||||||||||| ||    || ||||| ||||| | ||||||||| || || ||||| ||||||||||||||||  |  ||||| ||||| |  ||    || | |||||| || |  || ||| ||||||||||||| || |||||||||||||| || ||||||||||| || |||||||| || || || |||||||||| ||| || |  |||||||| ||||| || ||||| ||||| |  ||| | |||| ||| || ||   ||||    | || |     |  || || |||||||| || ||||| ||||| |||||| | |  |  ||||| || | ||| |||| ||| |||||||||||||| || |  ||||| || ||||| || |||| |||||| || ||| | |||||||| |||||||| ||||| || |||||||| || || || |||||||| || ||||||||||||||||||||||  || || ||||||||  | || || | ||| || ||||| || || || |||||||| || ||||||||||| ||||| ||||||||||| ||  | ||||  | ||| ||||||| ||||||||| ||||||||||| ||||| ||||  |||||||| || ||| |   ||||||||| |||||||| |||||||||||||||||||| || || |  |||||||||||||||||||||||||||||||| || |||||||| ||||  |   | |  | |||  |||| |||||||||||||| |  | ||||||||| ||||||||||| | |||| |  || ||||| ||||| |||||||| || |||||||| |||||||||||||||||||| || ||||| |||||||| || || |||||||| ||||| || |  || || ||||||||    |  ||||||||| | ||||||||||||||||||||||| |||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>136.539</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>1.38352e-26</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>125918</Hsp_hit-from>
+      <Hsp_hit-to>126022</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>TCGGAGAAACTAGCTGCATTAACAGGGGAGAACCCCACAAAGGACGAAGCTACCAGTACTAATACCAGCAGCCCCACTGCAATTTTCTTCACACCATACGCCTCC</Hsp_qseq>
+      <Hsp_hseq>TCGGAGAAGTTAGCTGCATTGACAGGGGAGAACCCCACAAAGGATGAAGCTACTAGCATAACTACCAGCAGCCCCACTGCAATTTTCTTCACACCCCACACCTCC</Hsp_hseq>
+      <Hsp_midline>||||||||  |||||||||| ||||||||||||||||||||||| |||||||| || |  | |||||||||||||||||||||||||||||||||  || |||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>115.8</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>4.52275e-20</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>128467</Hsp_hit-from>
+      <Hsp_hit-to>128557</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>TCGGAGAAACTAGCTGCATTAACAGGGGAGAACCCCACAAAGGACGAAGCTACCAGTACTAATACCAGCAGCCCCACTGCAATTTTCTTCA</Hsp_qseq>
+      <Hsp_hseq>TCGGAGAAGTTAGCTGCATTTACCGGGGAGAACCCCACAAAGGATGAAGCTACTAGCATAACTACCAGCAGCCCCACTGCAATCTTCTTCA</Hsp_hseq>
+      <Hsp_midline>||||||||  |||||||||| || |||||||||||||||||||| |||||||| || |  | ||||||||||||||||||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1915456248|dbj|AP024096.1|</Hit_id>
+  <Hit_def>Ktedonobacteria bacterium brp13 DNA, complete genome</Hit_def>
+  <Hit_accession>AP024096</Hit_accession>
+  <Hit_len>8879929</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.0924</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>0.0106459</Hsp_evalue>
+      <Hsp_query-from>747</Hsp_query-from>
+      <Hsp_query-to>816</Hsp_query-to>
+      <Hsp_hit-from>5976628</Hsp_hit-from>
+      <Hsp_hit-to>5976558</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>TTCTTACCGTTCTTT-GCATAAACCCGTCGCTACCCTTTGTGTAACCAGCCTGCTGAAGCAGTGTTGTAGC</Hsp_qseq>
+      <Hsp_hseq>TTCTGACCATTCTTTTGCAGAATGCCATCAGGACCCTTCGTGTAACCAGCCTGTTGCAGCAGAGTTGCAGC</Hsp_hseq>
+      <Hsp_midline>|||| ||| |||||| ||| ||  || ||   |||||| |||||||||||||| || ||||| |||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1788904471|ref|XR_004233124.1|</Hit_id>
+  <Hit_def>PREDICTED: Sarcophilus harrisii uncharacterized LOC116422466 (LOC116422466), transcript variant X5, ncRNA</Hit_def>
+  <Hit_accession>XR_004233124</Hit_accession>
+  <Hit_len>906</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8789</Hsp_bit-score>
+      <Hsp_score>55</Hsp_score>
+      <Hsp_evalue>1.57999</Hsp_evalue>
+      <Hsp_query-from>423</Hsp_query-from>
+      <Hsp_query-to>468</Hsp_query-to>
+      <Hsp_hit-from>708</Hsp_hit-from>
+      <Hsp_hit-to>754</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>TTGAAGCTGTTCCACTTTGT-TATCAAAGCATCGGCTTCTGCATTCC</Hsp_qseq>
+      <Hsp_hseq>TTGAAGCTGTTCCTCTATGCATTTCAAAGCATCTCCTTCTGCATTCC</Hsp_hseq>
+      <Hsp_midline>||||||||||||| || ||  | ||||||||||  ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1777376482|emb|LR736841.1|</Hit_id>
+  <Hit_def>Pecten maximus genome assembly, chromosome: 4</Hit_def>
+  <Hit_accession>LR736841</Hit_accession>
+  <Hit_len>52693527</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8789</Hsp_bit-score>
+      <Hsp_score>55</Hsp_score>
+      <Hsp_evalue>1.57999</Hsp_evalue>
+      <Hsp_query-from>365</Hsp_query-from>
+      <Hsp_query-to>406</Hsp_query-to>
+      <Hsp_hit-from>622243</Hsp_hit-from>
+      <Hsp_hit-to>622203</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>GTAAACAGCAAAGTAATTCTTTGCAAAGTCTCTGTAAGCTTT</Hsp_qseq>
+      <Hsp_hseq>GTAAAGAGAAAAGTAATACTTTGCAAAGT-TCTGTAAGTTTT</Hsp_hseq>
+      <Hsp_midline>||||| || |||||||| ||||||||||| |||||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1963988364|emb|LR991068.1|</Hit_id>
+  <Hit_def>Notocelia uddmanniana genome assembly, chromosome: 16</Hit_def>
+  <Hit_accession>LR991068</Hit_accession>
+  <Hit_len>25713929</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8789</Hsp_bit-score>
+      <Hsp_score>55</Hsp_score>
+      <Hsp_evalue>1.57999</Hsp_evalue>
+      <Hsp_query-from>129</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>928697</Hsp_hit-from>
+      <Hsp_hit-to>928652</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>CACTGTTTGCATAAGTAAAGTAAAACGTGTGTTAAAAATCATTATAT</Hsp_qseq>
+      <Hsp_hseq>CACTGTTTAGATA-GTAAAGTAAATCGTGAGTAAAAAATCATAATAT</Hsp_hseq>
+      <Hsp_midline>||||||||  ||| |||||||||| |||| || ||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1835963576|gb|CP050797.1|</Hit_id>
+  <Hit_def>Setaria viridis cultivar ME034v chromosome 3</Hit_def>
+  <Hit_accession>CP050797</Hit_accession>
+  <Hit_len>49814079</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.9773</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>1.57999</Hsp_evalue>
+      <Hsp_query-from>507</Hsp_query-from>
+      <Hsp_query-to>533</Hsp_query-to>
+      <Hsp_hit-from>10002646</Hsp_hit-from>
+      <Hsp_hit-to>10002672</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>GCAGATGGGATATACCTTGATTGATAA</Hsp_qseq>
+      <Hsp_hseq>GCAGATGGGATATACCTTGATTGATAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1885912093|emb|LR862395.1|</Hit_id>
+  <Hit_def>Arvicola amphibius genome assembly, chromosome: 15</Hit_def>
+  <Hit_accession>LR862395</Hit_accession>
+  <Hit_len>55452225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.9773</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>1.57999</Hsp_evalue>
+      <Hsp_query-from>816</Hsp_query-from>
+      <Hsp_query-to>852</Hsp_query-to>
+      <Hsp_hit-from>39273933</Hsp_hit-from>
+      <Hsp_hit-to>39273897</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>CTTTAGATGGATTGTATACAAACACATTCTTAGAGGA</Hsp_qseq>
+      <Hsp_hseq>CTTTAAATGGATTTTATACAAACACATTCTTTAAGGA</Hsp_hseq>
+      <Hsp_midline>||||| ||||||| |||||||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|2243791532|emb|OW971929.1|</Hit_id>
+  <Hit_def>Acrobasis suavella genome assembly, chromosome: 1</Hit_def>
+  <Hit_accession>OW971929</Hit_accession>
+  <Hit_len>28402000</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.0756</Hsp_bit-score>
+      <Hsp_score>53</Hsp_score>
+      <Hsp_evalue>5.51471</Hsp_evalue>
+      <Hsp_query-from>139</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>10035297</Hsp_hit-from>
+      <Hsp_hit-to>10035263</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>36</Hsp_align-len>
+      <Hsp_qseq>ATAAGTAAAGTAAAACGTGTGTTAAAAATCATTATA</Hsp_qseq>
+      <Hsp_hseq>ATAA-TAAAGTAAAACATGTGTTAAAAATAATTATA</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||||| |||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|2167950071|emb|OV277460.1|</Hit_id>
+  <Hit_def>Meles meles genome assembly, chromosome: 19</Hit_def>
+  <Hit_accession>OV277460</Hit_accession>
+  <Hit_len>62169934</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.0756</Hsp_bit-score>
+      <Hsp_score>53</Hsp_score>
+      <Hsp_evalue>5.51471</Hsp_evalue>
+      <Hsp_query-from>135</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>24040826</Hsp_hit-from>
+      <Hsp_hit-to>24040875</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>TTGCATAAGTAAAGTAAAAC--GTGTGTTAAA-AATCATTATATAAAAAA</Hsp_qseq>
+      <Hsp_hseq>TTGTATAAGTAAAGTAAAACATATGTGATAAATAATAATTATACAAAAAA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||||||   |||| |||| ||| |||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1963973635|emb|LR991038.1|</Hit_id>
+  <Hit_def>Cosmia trapezina genome assembly, chromosome: 19</Hit_def>
+  <Hit_accession>LR991038</Hit_accession>
+  <Hit_len>26606110</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.0756</Hsp_bit-score>
+      <Hsp_score>53</Hsp_score>
+      <Hsp_evalue>5.51471</Hsp_evalue>
+      <Hsp_query-from>137</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>25926911</Hsp_hit-from>
+      <Hsp_hit-to>25926870</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>GCATAAGTAAAGTAAAACGTGTGTTAAAAATCATTATATAAAAAA</Hsp_qseq>
+      <Hsp_hseq>GCATAAGTAAAGGAAAAAGTCTG---AAAATCATTATCTAAAAAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||| || ||   ||||||||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|94554390|gb|CP000359.1|</Hit_id>
+  <Hit_def>Deinococcus geothermalis DSM 11300, complete genome</Hit_def>
+  <Hit_accession>CP000359</Hit_accession>
+  <Hit_len>2467205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.0756</Hsp_bit-score>
+      <Hsp_score>53</Hsp_score>
+      <Hsp_evalue>5.51471</Hsp_evalue>
+      <Hsp_query-from>1700</Hsp_query-from>
+      <Hsp_query-to>1743</Hsp_query-to>
+      <Hsp_hit-from>1431977</Hsp_hit-from>
+      <Hsp_hit-to>1432020</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>44</Hsp_align-len>
+      <Hsp_qseq>ATGAAGTCATCGGCTGTAATAGGTTGGCCATCACTCCACTTAAG</Hsp_qseq>
+      <Hsp_hseq>ATGTAGTCATCGGCGGTGATCGCCTGGCCATCACTCCACTTCAG</Hsp_hseq>
+      <Hsp_midline>||| |||||||||| || || |  ||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|2272750305|ref|XM_025475468.3|</Hit_id>
+  <Hit_def>PREDICTED: Canis lupus dingo formin binding protein 1 (FNBP1), transcript variant X18, mRNA</Hit_def>
+  <Hit_accession>XM_025475468</Hit_accession>
+  <Hit_len>5494</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1739</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>5.51471</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>169</Hsp_query-to>
+      <Hsp_hit-from>3838</Hsp_hit-from>
+      <Hsp_hit-to>3813</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_qseq>
+      <Hsp_hseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|2272750300|ref|XM_025475480.3|</Hit_id>
+  <Hit_def>PREDICTED: Canis lupus dingo formin binding protein 1 (FNBP1), transcript variant X17, mRNA</Hit_def>
+  <Hit_accession>XM_025475480</Hit_accession>
+  <Hit_len>5211</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1739</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>5.51471</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>169</Hsp_query-to>
+      <Hsp_hit-from>3555</Hsp_hit-from>
+      <Hsp_hit-to>3530</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_qseq>
+      <Hsp_hseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|2272750296|ref|XM_025475479.3|</Hit_id>
+  <Hit_def>PREDICTED: Canis lupus dingo formin binding protein 1 (FNBP1), transcript variant X16, mRNA</Hit_def>
+  <Hit_accession>XM_025475479</Hit_accession>
+  <Hit_len>5214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1739</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>5.51471</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>169</Hsp_query-to>
+      <Hsp_hit-from>3558</Hsp_hit-from>
+      <Hsp_hit-to>3533</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_qseq>
+      <Hsp_hseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|2272750291|ref|XM_025475478.3|</Hit_id>
+  <Hit_def>PREDICTED: Canis lupus dingo formin binding protein 1 (FNBP1), transcript variant X15, mRNA</Hit_def>
+  <Hit_accession>XM_025475478</Hit_accession>
+  <Hit_len>5226</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1739</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>5.51471</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>169</Hsp_query-to>
+      <Hsp_hit-from>3570</Hsp_hit-from>
+      <Hsp_hit-to>3545</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_qseq>
+      <Hsp_hseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|2272750278|ref|XM_025475477.3|</Hit_id>
+  <Hit_def>PREDICTED: Canis lupus dingo formin binding protein 1 (FNBP1), transcript variant X14, mRNA</Hit_def>
+  <Hit_accession>XM_025475477</Hit_accession>
+  <Hit_len>5229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1739</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>5.51471</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>169</Hsp_query-to>
+      <Hsp_hit-from>3573</Hsp_hit-from>
+      <Hsp_hit-to>3548</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_qseq>
+      <Hsp_hseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|2272750274|ref|XM_025475475.3|</Hit_id>
+  <Hit_def>PREDICTED: Canis lupus dingo formin binding protein 1 (FNBP1), transcript variant X13, mRNA</Hit_def>
+  <Hit_accession>XM_025475475</Hit_accession>
+  <Hit_len>5307</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1739</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>5.51471</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>169</Hsp_query-to>
+      <Hsp_hit-from>3651</Hsp_hit-from>
+      <Hsp_hit-to>3626</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_qseq>
+      <Hsp_hseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|2272750272|ref|XM_035721047.2|</Hit_id>
+  <Hit_def>PREDICTED: Canis lupus dingo formin binding protein 1 (FNBP1), transcript variant X12, mRNA</Hit_def>
+  <Hit_accession>XM_035721047</Hit_accession>
+  <Hit_len>5310</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1739</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>5.51471</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>169</Hsp_query-to>
+      <Hsp_hit-from>3654</Hsp_hit-from>
+      <Hsp_hit-to>3629</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_qseq>
+      <Hsp_hseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|2272750266|ref|XM_025475474.3|</Hit_id>
+  <Hit_def>PREDICTED: Canis lupus dingo formin binding protein 1 (FNBP1), transcript variant X11, mRNA</Hit_def>
+  <Hit_accession>XM_025475474</Hit_accession>
+  <Hit_len>5322</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1739</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>5.51471</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>169</Hsp_query-to>
+      <Hsp_hit-from>3666</Hsp_hit-from>
+      <Hsp_hit-to>3641</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_qseq>
+      <Hsp_hseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|2272750263|ref|XM_025475473.3|</Hit_id>
+  <Hit_def>PREDICTED: Canis lupus dingo formin binding protein 1 (FNBP1), transcript variant X10, mRNA</Hit_def>
+  <Hit_accession>XM_025475473</Hit_accession>
+  <Hit_len>5325</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1739</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>5.51471</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>169</Hsp_query-to>
+      <Hsp_hit-from>3669</Hsp_hit-from>
+      <Hsp_hit-to>3644</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_qseq>
+      <Hsp_hseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|2272750249|ref|XM_035721046.2|</Hit_id>
+  <Hit_def>PREDICTED: Canis lupus dingo formin binding protein 1 (FNBP1), transcript variant X9, mRNA</Hit_def>
+  <Hit_accession>XM_035721046</Hit_accession>
+  <Hit_len>5364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1739</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>5.51471</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>169</Hsp_query-to>
+      <Hsp_hit-from>3708</Hsp_hit-from>
+      <Hsp_hit-to>3683</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_qseq>
+      <Hsp_hseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|2272750247|ref|XM_025475472.3|</Hit_id>
+  <Hit_def>PREDICTED: Canis lupus dingo formin binding protein 1 (FNBP1), transcript variant X8, mRNA</Hit_def>
+  <Hit_accession>XM_025475472</Hit_accession>
+  <Hit_len>5379</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1739</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>5.51471</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>169</Hsp_query-to>
+      <Hsp_hit-from>3723</Hsp_hit-from>
+      <Hsp_hit-to>3698</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_qseq>
+      <Hsp_hseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|2272750245|ref|XM_049114982.1|</Hit_id>
+  <Hit_def>PREDICTED: Canis lupus dingo formin binding protein 1 (FNBP1), transcript variant X7, mRNA</Hit_def>
+  <Hit_accession>XM_049114982</Hit_accession>
+  <Hit_len>5382</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1739</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>5.51471</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>169</Hsp_query-to>
+      <Hsp_hit-from>3726</Hsp_hit-from>
+      <Hsp_hit-to>3701</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_qseq>
+      <Hsp_hseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|2272750244|ref|XM_025475471.3|</Hit_id>
+  <Hit_def>PREDICTED: Canis lupus dingo formin binding protein 1 (FNBP1), transcript variant X6, mRNA</Hit_def>
+  <Hit_accession>XM_025475471</Hit_accession>
+  <Hit_len>5449</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1739</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>5.51471</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>169</Hsp_query-to>
+      <Hsp_hit-from>3793</Hsp_hit-from>
+      <Hsp_hit-to>3768</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_qseq>
+      <Hsp_hseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|2272750239|ref|XM_025475470.3|</Hit_id>
+  <Hit_def>PREDICTED: Canis lupus dingo formin binding protein 1 (FNBP1), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_025475470</Hit_accession>
+  <Hit_len>5397</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1739</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>5.51471</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>169</Hsp_query-to>
+      <Hsp_hit-from>3741</Hsp_hit-from>
+      <Hsp_hit-to>3716</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_qseq>
+      <Hsp_hseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|2272750235|ref|XM_049114980.1|</Hit_id>
+  <Hit_def>PREDICTED: Canis lupus dingo formin binding protein 1 (FNBP1), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_049114980</Hit_accession>
+  <Hit_len>5473</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1739</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>5.51471</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>169</Hsp_query-to>
+      <Hsp_hit-from>3817</Hsp_hit-from>
+      <Hsp_hit-to>3792</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_qseq>
+      <Hsp_hseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|2272750230|ref|XM_049114979.1|</Hit_id>
+  <Hit_def>PREDICTED: Canis lupus dingo formin binding protein 1 (FNBP1), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_049114979</Hit_accession>
+  <Hit_len>5703</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1739</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>5.51471</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>169</Hsp_query-to>
+      <Hsp_hit-from>4047</Hsp_hit-from>
+      <Hsp_hit-to>4022</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_qseq>
+      <Hsp_hseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|2259325980|emb|OV651820.1|</Hit_id>
+  <Hit_def>Psylliodes chrysocephala genome assembly, chromosome: 8</Hit_def>
+  <Hit_accession>OV651820</Hit_accession>
+  <Hit_len>66489127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1739</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>5.51471</Hsp_evalue>
+      <Hsp_query-from>1664</Hsp_query-from>
+      <Hsp_query-to>1705</Hsp_query-to>
+      <Hsp_hit-from>30142977</Hsp_hit-from>
+      <Hsp_hit-to>30143019</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>GGCATTCCATTGGCAAGATAAAGTAATG-TTCCGAAAATGAAG</Hsp_qseq>
+      <Hsp_hseq>GGCATTCCATTGGCAAGGTAAGAAAATGATTTCGAAAATGAAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||| |||   |||| || |||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|2211174607|emb|OW052232.1|</Hit_id>
+  <Hit_def>Operophtera brumata genome assembly, chromosome: 8</Hit_def>
+  <Hit_accession>OW052232</Hit_accession>
+  <Hit_len>33878230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1739</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>5.51471</Hsp_evalue>
+      <Hsp_query-from>731</Hsp_query-from>
+      <Hsp_query-to>762</Hsp_query-to>
+      <Hsp_hit-from>26431581</Hsp_hit-from>
+      <Hsp_hit-to>26431549</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>AGCAAGCAAGCTC-AATTTCTTACCGTTCTTTG</Hsp_qseq>
+      <Hsp_hseq>AGCAAGCAAGCTCGAATTTCTTACCGTTCTGTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||| |||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|2206654756|emb|OW028753.1|</Hit_id>
+  <Hit_def>Aporophyla lueneburgensis genome assembly, chromosome: 20</Hit_def>
+  <Hit_accession>OW028753</Hit_accession>
+  <Hit_len>30703409</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1739</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>5.51471</Hsp_evalue>
+      <Hsp_query-from>152</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>7115359</Hsp_hit-from>
+      <Hsp_hit-to>7115389</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>AACGTGTGTTAAAAATCATTATATAAAAAAC</Hsp_qseq>
+      <Hsp_hseq>AACATGGGTTAAAAATCATTATATAAAAAAC</Hsp_hseq>
+      <Hsp_midline>||| || ||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|2123101873|emb|OU862916.1|</Hit_id>
+  <Hit_def>Limnephilus marmoratus genome assembly, chromosome: 11</Hit_def>
+  <Hit_accession>OU862916</Hit_accession>
+  <Hit_len>57721942</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1739</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>5.51471</Hsp_evalue>
+      <Hsp_query-from>140</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>41516896</Hsp_hit-from>
+      <Hsp_hit-to>41516852</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>TAAGTAAAGTAAAA--CGTGTGTTAAAAATCATTATATAAAAAAC</Hsp_qseq>
+      <Hsp_hseq>TAAGTAAATTTAAAACCGTGTATTTAAAATCATTATATAAAACAC</Hsp_hseq>
+      <Hsp_midline>|||||||| | |||  ||||| || ||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|2076208713|emb|OU452186.1|</Hit_id>
+  <Hit_def>Peribatodes rhomboidaria genome assembly, chromosome: 20</Hit_def>
+  <Hit_accession>OU452186</Hit_accession>
+  <Hit_len>15913692</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1739</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>5.51471</Hsp_evalue>
+      <Hsp_query-from>1204</Hsp_query-from>
+      <Hsp_query-to>1248</Hsp_query-to>
+      <Hsp_hit-from>8817674</Hsp_hit-from>
+      <Hsp_hit-to>8817722</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>AGATTCAACACTTCTGAATGC-AACAACGACTTTAT---CGAACAAACC</Hsp_qseq>
+      <Hsp_hseq>AGTTTCAAGACTTCTGAATACTAACAACGACTTTATCAGCGAACTAACC</Hsp_hseq>
+      <Hsp_midline>|| ||||| |||||||||| | ||||||||||||||   ||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|1997758125|emb|HG994394.1|</Hit_id>
+  <Hit_def>Canis lupus genome assembly, chromosome: 9</Hit_def>
+  <Hit_accession>HG994394</Hit_accession>
+  <Hit_len>66787146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1739</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>5.51471</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>169</Hsp_query-to>
+      <Hsp_hit-from>7138712</Hsp_hit-from>
+      <Hsp_hit-to>7138737</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_qseq>
+      <Hsp_hseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|1982882334|gb|CP018226.1|</Hit_id>
+  <Hit_def>Rhizobiales bacterium IMCC20636 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP018226</Hit_accession>
+  <Hit_len>4790321</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1739</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>5.51471</Hsp_evalue>
+      <Hsp_query-from>1696</Hsp_query-from>
+      <Hsp_query-to>1746</Hsp_query-to>
+      <Hsp_hit-from>71319</Hsp_hit-from>
+      <Hsp_hit-to>71369</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>GAAAATGAAGTCATCGGCTGTAATAGGTTGGCCATCACTCCACTTAAGGCC</Hsp_qseq>
+      <Hsp_hseq>GAACATAATGTCATCGGCTGTCAGTGGCTGGCCATCGCTCCACTTCATGCC</Hsp_hseq>
+      <Hsp_midline>||| || | |||||||||||| |  || |||||||| |||||||| | |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|1953417832|ref|XM_038678307.1|</Hit_id>
+  <Hit_def>PREDICTED: Canis lupus familiaris formin binding protein 1 (FNBP1), transcript variant X17, mRNA</Hit_def>
+  <Hit_accession>XM_038678307</Hit_accession>
+  <Hit_len>5603</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1739</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>5.51471</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>169</Hsp_query-to>
+      <Hsp_hit-from>3920</Hsp_hit-from>
+      <Hsp_hit-to>3895</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_qseq>
+      <Hsp_hseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|1953417830|ref|XM_038678306.1|</Hit_id>
+  <Hit_def>PREDICTED: Canis lupus familiaris formin binding protein 1 (FNBP1), transcript variant X16, mRNA</Hit_def>
+  <Hit_accession>XM_038678306</Hit_accession>
+  <Hit_len>5181</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1739</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>5.51471</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>169</Hsp_query-to>
+      <Hsp_hit-from>3498</Hsp_hit-from>
+      <Hsp_hit-to>3473</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_qseq>
+      <Hsp_hseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|1953417828|ref|XM_038678305.1|</Hit_id>
+  <Hit_def>PREDICTED: Canis lupus familiaris formin binding protein 1 (FNBP1), transcript variant X15, mRNA</Hit_def>
+  <Hit_accession>XM_038678305</Hit_accession>
+  <Hit_len>5184</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1739</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>5.51471</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>169</Hsp_query-to>
+      <Hsp_hit-from>3501</Hsp_hit-from>
+      <Hsp_hit-to>3476</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_qseq>
+      <Hsp_hseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|1953417826|ref|XM_038678304.1|</Hit_id>
+  <Hit_def>PREDICTED: Canis lupus familiaris formin binding protein 1 (FNBP1), transcript variant X14, mRNA</Hit_def>
+  <Hit_accession>XM_038678304</Hit_accession>
+  <Hit_len>5199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1739</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>5.51471</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>169</Hsp_query-to>
+      <Hsp_hit-from>3516</Hsp_hit-from>
+      <Hsp_hit-to>3491</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_qseq>
+      <Hsp_hseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|1953417824|ref|XM_038678303.1|</Hit_id>
+  <Hit_def>PREDICTED: Canis lupus familiaris formin binding protein 1 (FNBP1), transcript variant X13, mRNA</Hit_def>
+  <Hit_accession>XM_038678303</Hit_accession>
+  <Hit_len>5280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1739</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>5.51471</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>169</Hsp_query-to>
+      <Hsp_hit-from>3597</Hsp_hit-from>
+      <Hsp_hit-to>3572</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_qseq>
+      <Hsp_hseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|1953417822|ref|XM_038678302.1|</Hit_id>
+  <Hit_def>PREDICTED: Canis lupus familiaris formin binding protein 1 (FNBP1), transcript variant X12, mRNA</Hit_def>
+  <Hit_accession>XM_038678302</Hit_accession>
+  <Hit_len>5292</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1739</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>5.51471</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>169</Hsp_query-to>
+      <Hsp_hit-from>3609</Hsp_hit-from>
+      <Hsp_hit-to>3584</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_qseq>
+      <Hsp_hseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|1953417820|ref|XM_038678301.1|</Hit_id>
+  <Hit_def>PREDICTED: Canis lupus familiaris formin binding protein 1 (FNBP1), transcript variant X11, mRNA</Hit_def>
+  <Hit_accession>XM_038678301</Hit_accession>
+  <Hit_len>5295</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1739</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>5.51471</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>169</Hsp_query-to>
+      <Hsp_hit-from>3612</Hsp_hit-from>
+      <Hsp_hit-to>3587</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_qseq>
+      <Hsp_hseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|1953417818|ref|XM_038678300.1|</Hit_id>
+  <Hit_def>PREDICTED: Canis lupus familiaris formin binding protein 1 (FNBP1), transcript variant X10, mRNA</Hit_def>
+  <Hit_accession>XM_038678300</Hit_accession>
+  <Hit_len>5334</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1739</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>5.51471</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>169</Hsp_query-to>
+      <Hsp_hit-from>3651</Hsp_hit-from>
+      <Hsp_hit-to>3626</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_qseq>
+      <Hsp_hseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|1953417816|ref|XM_038678299.1|</Hit_id>
+  <Hit_def>PREDICTED: Canis lupus familiaris formin binding protein 1 (FNBP1), transcript variant X9, mRNA</Hit_def>
+  <Hit_accession>XM_038678299</Hit_accession>
+  <Hit_len>5349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1739</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>5.51471</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>169</Hsp_query-to>
+      <Hsp_hit-from>3666</Hsp_hit-from>
+      <Hsp_hit-to>3641</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_qseq>
+      <Hsp_hseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|1953417814|ref|XM_038678298.1|</Hit_id>
+  <Hit_def>PREDICTED: Canis lupus familiaris formin binding protein 1 (FNBP1), transcript variant X8, mRNA</Hit_def>
+  <Hit_accession>XM_038678298</Hit_accession>
+  <Hit_len>5364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1739</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>5.51471</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>169</Hsp_query-to>
+      <Hsp_hit-from>3681</Hsp_hit-from>
+      <Hsp_hit-to>3656</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_qseq>
+      <Hsp_hseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|1953417812|ref|XM_038678297.1|</Hit_id>
+  <Hit_def>PREDICTED: Canis lupus familiaris formin binding protein 1 (FNBP1), transcript variant X7, mRNA</Hit_def>
+  <Hit_accession>XM_038678297</Hit_accession>
+  <Hit_len>5367</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1739</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>5.51471</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>169</Hsp_query-to>
+      <Hsp_hit-from>3684</Hsp_hit-from>
+      <Hsp_hit-to>3659</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_qseq>
+      <Hsp_hseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|1953417810|ref|XM_038678296.1|</Hit_id>
+  <Hit_def>PREDICTED: Canis lupus familiaris formin binding protein 1 (FNBP1), transcript variant X6, mRNA</Hit_def>
+  <Hit_accession>XM_038678296</Hit_accession>
+  <Hit_len>5379</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1739</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>5.51471</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>169</Hsp_query-to>
+      <Hsp_hit-from>3696</Hsp_hit-from>
+      <Hsp_hit-to>3671</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_qseq>
+      <Hsp_hseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|1953417808|ref|XM_038678295.1|</Hit_id>
+  <Hit_def>PREDICTED: Canis lupus familiaris formin binding protein 1 (FNBP1), transcript variant X5, mRNA</Hit_def>
+  <Hit_accession>XM_038678295</Hit_accession>
+  <Hit_len>5382</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1739</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>5.51471</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>169</Hsp_query-to>
+      <Hsp_hit-from>3699</Hsp_hit-from>
+      <Hsp_hit-to>3674</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_qseq>
+      <Hsp_hseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|1953417806|ref|XM_038678294.1|</Hit_id>
+  <Hit_def>PREDICTED: Canis lupus familiaris formin binding protein 1 (FNBP1), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_038678294</Hit_accession>
+  <Hit_len>5436</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1739</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>5.51471</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>169</Hsp_query-to>
+      <Hsp_hit-from>3753</Hsp_hit-from>
+      <Hsp_hit-to>3728</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_qseq>
+      <Hsp_hseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|1953417804|ref|XM_038678293.1|</Hit_id>
+  <Hit_def>PREDICTED: Canis lupus familiaris formin binding protein 1 (FNBP1), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_038678293</Hit_accession>
+  <Hit_len>5748</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1739</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>5.51471</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>169</Hsp_query-to>
+      <Hsp_hit-from>4065</Hsp_hit-from>
+      <Hsp_hit-to>4040</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_qseq>
+      <Hsp_hseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1953417800|ref|XM_038678291.1|</Hit_id>
+  <Hit_def>PREDICTED: Canis lupus familiaris formin binding protein 1 (FNBP1), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_038678291</Hit_accession>
+  <Hit_len>5463</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1739</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>5.51471</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>169</Hsp_query-to>
+      <Hsp_hit-from>3780</Hsp_hit-from>
+      <Hsp_hit-to>3755</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_qseq>
+      <Hsp_hseq>TAAAGTAAAACGTGTGTTAAAAATCA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>84511849</Statistics_db-num>
+      <Statistics_db-len>827509350467</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
