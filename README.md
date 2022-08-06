@@ -17,7 +17,7 @@
 #  Biophyton version 1.79
 <img src="https://upload.wikimedia.org/wikipedia/commons/1/13/Biopython_logo.png" width=400 height=300 />
 
-# Jupyter notebook
+# Jupyter notebook version 6.4.8
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1200px-Jupyter_logo.svg.png" width=400 height=300 />
 
 # Visual Code version 1.70
