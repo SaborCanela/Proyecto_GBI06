@@ -14,7 +14,7 @@
     - Desarrollar una herramienta en Python que permita a los investigadores observar la aleatoriedad entre cadenas genéticas
 ## Metodologia
 ![rcomplement](Diagrama_flujos.png)
-##Resultaos 
+## Resultaos 
 ![rcomplement](Resultados_imagen.png)
 
 # Programas y librerias empleadas:
