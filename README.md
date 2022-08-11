@@ -12,6 +12,10 @@
 
 ## Objetivo
     - Desarrollar una herramienta en Python que permita a los investigadores observar la aleatoriedad entre cadenas genéticas
+## Metodologia
+![rcomplement](img/Diagrama_flujos.JPG)
+##Resultaos 
+![rcomplement](img/Resultados_imagen.JPG)
 
 # Programas y librerias empleadas:
 #  Biophyton version 1.79
